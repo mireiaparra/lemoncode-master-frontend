@@ -1,0 +1,50 @@
+.container-1, .container-2, .container-3 {
+  gap: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.box {
+  color: #fff;
+  border-radius: 5%;
+  padding: 30px 20px;
+}
+
+.base-color {
+  background-color: red;
+  padding: 30px 40px;
+}
+
+.container-1 .darken-1 {
+  background-color: #e60000;
+}
+
+.container-1 .darken-2 {
+  background-color: #c00;
+}
+
+.container-1 .darken-3 {
+  background-color: #b30000;
+}
+
+.container-1 .darken-4 {
+  background-color: #900;
+}
+
+.container-1 .lighten-1 {
+  background-color: #ff1a1a;
+}
+
+.container-1 .lighten-2 {
+  background-color: #f33;
+}
+
+.container-1 .lighten-3 {
+  background-color: #ff4d4d;
+}
+
+.container-1 .lighten-4 {
+  background-color: #f66;
+}
+
+/*# sourceMappingURL=index.42d1f2c2.css.map */

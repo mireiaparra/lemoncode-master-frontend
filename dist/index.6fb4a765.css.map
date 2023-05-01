@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["dist/index.27fd664c.css","dist/1.Layout/Ejercicio-1/main.scss"],"sourcesContent":[".base-color {\n  background-color: red;\n}\n\n",".base-color {\n    background-color: red;\n}"],"names":[],"version":3,"file":"index.6fb4a765.css.map","sourceRoot":"/__parcel_source_root/"}
