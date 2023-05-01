@@ -1,0 +1,50 @@
+$color1: rgb(123, 198, 123);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: lightgrey;
+    padding: 10px 20px;
+    height: 600px;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
+.container{
+    background-color: white;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (5, auto);
+    & img{
+        width: 100%;
+        justify-self: center;
+     
+    }
+    & p {
+        padding: 0 20px;
+    }
+    & h2{
+        padding: 0 20px;
+        font-weight:300;
+    }
+    & :nth-child(4){
+        justify-self: right;
+        & span {
+            color: $color1;
+        }
+    }
+    & button {
+        background-color: $color1;
+        border: none;
+        padding: 10px;
+        color: white;
+        margin: 0 20px 20px;
+        font-size: 16px;
+    }
+}
