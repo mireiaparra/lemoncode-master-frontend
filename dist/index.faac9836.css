@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 600px;
+  width: 350px;
+  background-color: #d3d3d3;
+  padding: 10px 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat 5, auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  gap: 20px;
+  display: grid;
+}
+
+.container img {
+  width: 100%;
+  justify-self: center;
+}
+
+.container p {
+  padding: 0 20px;
+}
+
+.container h2 {
+  padding: 0 20px;
+  font-weight: 300;
+}
+
+.container :nth-child(4) {
+  justify-self: right;
+}
+
+.container :nth-child(4) span {
+  color: #7bc67b;
+}
+
+.container button {
+  color: #fff;
+  background-color: #7bc67b;
+  border: none;
+  margin: 0 20px 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=index.faac9836.css.map */
