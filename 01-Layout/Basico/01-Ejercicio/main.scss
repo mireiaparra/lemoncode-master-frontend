@@ -1,0 +1,73 @@
+$color-1: rgb(255, 0, 0);
+$color-2: blue;
+$color-3: green;
+
+$percentage: 10%;
+
+.box{
+    padding: 30px 20px;
+    color: white;
+    border-radius: 5%;
+  
+ }
+
+
+@mixin dark($color, $percentage) {
+    background-color: darken($color, $percentage);
+}
+
+@mixin light($color, $percentage) {
+    background-color: lighten($color, $percentage);
+}
+@mixin baseColor($color) {
+    background-color: $color;
+    padding: 30px 40px;
+}
+
+@for $i from 1 through 3 {
+    .container-#{$i}{
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@for $i from 1 through 4 {
+    .container-1{
+        .darken-#{$i} {
+            @include dark($color-1, $percentage * $i);
+        }
+        .lighten-#{$i} {
+            @include light($color-1, $percentage * $i);
+        }
+        .base-color {
+           @include baseColor($color-1)
+          }
+    }
+    .container-2{
+        .darken-#{$i} {
+            @include dark($color-2, $percentage * $i);
+        }
+        .lighten-#{$i} {
+            @include light($color-2, $percentage * $i);
+        }
+        .base-color {
+            @include baseColor($color-2)
+           }
+    }
+    .container-3{
+        .darken-#{$i} {
+            @include dark($color-3, $percentage * $i);
+        }
+        .lighten-#{$i} {
+            @include light($color-3, $percentage * $i);
+        }
+        .base-color {
+            @include baseColor($color-3)
+           }
+    }
+  
+}
+
+

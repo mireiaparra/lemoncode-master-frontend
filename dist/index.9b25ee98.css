@@ -1,0 +1,124 @@
+.box {
+  color: #fff;
+  border-radius: 5%;
+  padding: 30px 20px;
+}
+
+.container-1, .container-2, .container-3 {
+  gap: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.container-1 .darken-1 {
+  background-color: #c00;
+}
+
+.container-1 .lighten-1 {
+  background-color: #f33;
+}
+
+.container-2 .darken-1 {
+  background-color: #00c;
+}
+
+.container-2 .lighten-1 {
+  background-color: #33f;
+}
+
+.container-3 .darken-1 {
+  background-color: #004d00;
+}
+
+.container-3 .lighten-1 {
+  background-color: #00b300;
+}
+
+.container-1 .darken-2 {
+  background-color: #900;
+}
+
+.container-1 .lighten-2 {
+  background-color: #f66;
+}
+
+.container-2 .darken-2 {
+  background-color: #009;
+}
+
+.container-2 .lighten-2 {
+  background-color: #66f;
+}
+
+.container-3 .darken-2 {
+  background-color: #001a00;
+}
+
+.container-3 .lighten-2 {
+  background-color: #00e600;
+}
+
+.container-1 .darken-3 {
+  background-color: #600;
+}
+
+.container-1 .lighten-3 {
+  background-color: #f99;
+}
+
+.container-2 .darken-3 {
+  background-color: #006;
+}
+
+.container-2 .lighten-3 {
+  background-color: #99f;
+}
+
+.container-3 .darken-3 {
+  background-color: #000;
+}
+
+.container-3 .lighten-3 {
+  background-color: #1aff1a;
+}
+
+.container-1 .darken-4 {
+  background-color: #300;
+}
+
+.container-1 .lighten-4 {
+  background-color: #fcc;
+}
+
+.container-1 .base-color {
+  background-color: red;
+  padding: 30px 40px;
+}
+
+.container-2 .darken-4 {
+  background-color: #003;
+}
+
+.container-2 .lighten-4 {
+  background-color: #ccf;
+}
+
+.container-2 .base-color {
+  background-color: #00f;
+  padding: 30px 40px;
+}
+
+.container-3 .darken-4 {
+  background-color: #000;
+}
+
+.container-3 .lighten-4 {
+  background-color: #4dff4d;
+}
+
+.container-3 .base-color {
+  background-color: green;
+  padding: 30px 40px;
+}
+
+/*# sourceMappingURL=index.9b25ee98.css.map */
