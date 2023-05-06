@@ -1,0 +1,36 @@
+@use "_02-theme" as *;
+$percentage: 10%;
+
+.box {
+    padding: 20px 10px;
+    border-radius: 5%;
+    &-1 {
+        background-color: $color-1;
+    }
+    &-2 {
+        background-color: $color-2;
+    }
+    &-3 {
+        background-color: $color-3;
+    }
+    &-4 {
+        box-shadow: $shadow;
+    }
+}
+
+.font {
+    &-1 {
+        font-family: $font-1;
+    }
+    &-2 {
+        font-family: $font-2;
+    }
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    text-align: center;
+}
