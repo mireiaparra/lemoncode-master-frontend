@@ -4,20 +4,20 @@ $color-3: green;
 
 $percentage: 10%;
 
-.box{
+.box {
     padding: 30px 20px;
-    color: white;
-    border-radius: 5%;
-  
- }
 
+    border-radius: 5%;
+}
 
 @mixin dark($color, $percentage) {
     background-color: darken($color, $percentage);
+    color: darken(white, $percentage);
 }
 
 @mixin light($color, $percentage) {
     background-color: lighten($color, $percentage);
+    color: lighten(white, $percentage);
 }
 @mixin baseColor($color) {
     background-color: $color;
@@ -25,16 +25,15 @@ $percentage: 10%;
 }
 
 @for $i from 1 through 3 {
-    .container-#{$i}{
+    .container-#{$i} {
         display: flex;
         gap: 10px;
         margin-bottom: 10px;
     }
 }
 
-
 @for $i from 1 through 4 {
-    .container-1{
+    .container-1 {
         .darken-#{$i} {
             @include dark($color-1, $percentage * $i);
         }
@@ -42,10 +41,10 @@ $percentage: 10%;
             @include light($color-1, $percentage * $i);
         }
         .base-color {
-           @include baseColor($color-1)
-          }
+            @include baseColor($color-1);
+        }
     }
-    .container-2{
+    .container-2 {
         .darken-#{$i} {
             @include dark($color-2, $percentage * $i);
         }
@@ -53,10 +52,10 @@ $percentage: 10%;
             @include light($color-2, $percentage * $i);
         }
         .base-color {
-            @include baseColor($color-2)
-           }
+            @include baseColor($color-2);
+        }
     }
-    .container-3{
+    .container-3 {
         .darken-#{$i} {
             @include dark($color-3, $percentage * $i);
         }
@@ -64,10 +63,7 @@ $percentage: 10%;
             @include light($color-3, $percentage * $i);
         }
         .base-color {
-            @include baseColor($color-3)
-           }
+            @include baseColor($color-3);
+        }
     }
-  
 }
-
-

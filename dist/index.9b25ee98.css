@@ -1,5 +1,4 @@
 .box {
-  color: #fff;
   border-radius: 5%;
   padding: 30px 20px;
 }
@@ -11,82 +10,102 @@
 }
 
 .container-1 .darken-1 {
+  color: #e6e6e6;
   background-color: #c00;
 }
 
 .container-1 .lighten-1 {
+  color: #fff;
   background-color: #f33;
 }
 
 .container-2 .darken-1 {
+  color: #e6e6e6;
   background-color: #00c;
 }
 
 .container-2 .lighten-1 {
+  color: #fff;
   background-color: #33f;
 }
 
 .container-3 .darken-1 {
+  color: #e6e6e6;
   background-color: #004d00;
 }
 
 .container-3 .lighten-1 {
+  color: #fff;
   background-color: #00b300;
 }
 
 .container-1 .darken-2 {
+  color: #ccc;
   background-color: #900;
 }
 
 .container-1 .lighten-2 {
+  color: #fff;
   background-color: #f66;
 }
 
 .container-2 .darken-2 {
+  color: #ccc;
   background-color: #009;
 }
 
 .container-2 .lighten-2 {
+  color: #fff;
   background-color: #66f;
 }
 
 .container-3 .darken-2 {
+  color: #ccc;
   background-color: #001a00;
 }
 
 .container-3 .lighten-2 {
+  color: #fff;
   background-color: #00e600;
 }
 
 .container-1 .darken-3 {
+  color: #b3b3b3;
   background-color: #600;
 }
 
 .container-1 .lighten-3 {
+  color: #fff;
   background-color: #f99;
 }
 
 .container-2 .darken-3 {
+  color: #b3b3b3;
   background-color: #006;
 }
 
 .container-2 .lighten-3 {
+  color: #fff;
   background-color: #99f;
 }
 
 .container-3 .darken-3 {
+  color: #b3b3b3;
   background-color: #000;
 }
 
 .container-3 .lighten-3 {
+  color: #fff;
   background-color: #1aff1a;
 }
 
 .container-1 .darken-4 {
+  color: #999;
   background-color: #300;
 }
 
 .container-1 .lighten-4 {
+  color: #fff;
   background-color: #fcc;
 }
 
@@ -96,10 +115,12 @@
 }
 
 .container-2 .darken-4 {
+  color: #999;
   background-color: #003;
 }
 
 .container-2 .lighten-4 {
+  color: #fff;
   background-color: #ccf;
 }
 
@@ -109,10 +130,12 @@
 }
 
 .container-3 .darken-4 {
+  color: #999;
   background-color: #000;
 }
 
 .container-3 .lighten-4 {
+  color: #fff;
   background-color: #4dff4d;
 }
 
