@@ -1,5 +1,6 @@
 // ? Implementa una función init (inmutable), tal que, dado un array como entrada devuelva todos los elementos menos el último. Utiliza los métodos que ofrece Array.prototype.
 
+
 const init = (array) => {
     return array.slice(0, -1)
 }; 

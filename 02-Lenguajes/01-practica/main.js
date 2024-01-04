@@ -32,7 +32,6 @@ var john = new Person("John");
 // console.log(getValues(john));
 
 // ? 102: califications 
-//REVIEW - No debería salir siempre sobresaliente
 
 const eso2o = {
   David: 8.25,
@@ -43,30 +42,27 @@ const eso2o = {
   Carmen: 8,
 };
 
-let averageText;
 function printAverage(classResults) {
   let values;
   values = Object.values(classResults);
   let sum = values.reduce((acc, val) => (acc += val));
   let average = sum / values.length;
   if (average === 10) {
-    return averageText = "Matrícula de Honor";
-  } else if (9 < average < 10) {
-    console.log(9<average<10)
-    return averageText = "Sobresaliente";
-  } else if (7 < average < 9) {
-    return averageText = "Notable";
-  } else if (6 < average < 7) {
-    return averageText = "Bien";
-  } else if (5 < average < 6) {
-   return averageText = "Suficiente";
-  } else if (4 < average < 5) {
-    return averageText = "Insuficiente";
+    return "Matrícula de Honor";
+  } else if (average >= 9) {
+    return "Sobresaliente";
+  } else if (average >= 7) {
+    return "Notable";
+  } else if (average >= 6) {
+    return "Bien";
+  } else if (average >= 5) {
+    return "Suficiente";
+  } else if (average >= 4) {
+    return "Insuficiente";
   } else if (average < 4) {
-    return averageText = "Muy deficiente";
+    return "Muy deficiente";
   }
 }
-// console.log(averageText);
 
 // console.log(printAverage(eso2o));
 
